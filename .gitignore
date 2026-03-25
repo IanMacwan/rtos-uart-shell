@@ -1,0 +1,15 @@
+Debug/
+Release/
+build/
+
+.settings/
+.project
+.cproject
+
+*.log
+*.tmp
+.DS_Store
+
+*.launch
+
+compile_commands.json
