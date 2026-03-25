@@ -5,6 +5,7 @@ build/
 .settings/
 .project
 .cproject
+.mxproject
 
 *.log
 *.tmp
