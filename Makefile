@@ -69,8 +69,7 @@ Core/Src/sysmem.c \
 Core/Src/syscalls.c  
 
 # ASM sources
-ASM_SOURCES =  \
-startup_stm32f446xx.s
+ASM_SOURCES = startup_stm32f446xx.s
 
 # ASMM sources
 ASMM_SOURCES = 
