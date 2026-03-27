@@ -173,6 +173,9 @@ LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BU
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
 
 
+
+# --- USER EXTENSIONS ---
+-include ./user.mk
 #######################################
 # build the application
 #######################################
@@ -217,6 +220,4 @@ clean:
 #######################################
 -include $(wildcard $(BUILD_DIR)/*.d)
 
-# --- USER EXTENSIONS ---
--include user.mk
 # *** EOF ***
