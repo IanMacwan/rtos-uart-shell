@@ -6,6 +6,7 @@ build/
 .project
 .cproject
 .mxproject
+.cache
 
 *.log
 *.tmp
