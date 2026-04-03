@@ -19,7 +19,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "FreeRTOS.h"
-#include "task.h"
+#include "app_tasks.h"
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -54,6 +54,10 @@
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+
+void MX_FREERTOS_Init(void) {
+  MX_CreateTasks();
+}
 
 /* USER CODE END Application */
 
